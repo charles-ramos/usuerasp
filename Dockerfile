@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 CMD ["python", "bot.py"]
 
-# EXPOSE 80/tcp
+EXPOSE 8080
